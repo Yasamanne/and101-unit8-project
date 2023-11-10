@@ -1,4 +1,4 @@
-# GlobeTrekker Insight
+# 🌍 GlobeTrekker Insight
 
 ## Table of Contents
 
@@ -38,44 +38,56 @@ Discover the beauty of global diversity and expand your knowledge of the world's
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can insert name of a country
+* User can select to see the flag of the selected country
+* The app displays the currency of the countries, official name, languages spoken, and capital
+* User can select to see more details like continent, timezone, population, and coat of arms
+* A tab to see three favorite countries' information
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Currency exchange to dollar
+* News about that specific country
+* Displays the location of the country on the map
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [1️⃣] Stream
+* User can insert a country name
+* User can select a button to see more details
+- [2️⃣] Details
+* User can select to see the flag
+* User can select to see the coat of arms
+- [3️⃣] Profile
+* User can add 3 countries of their interest to their favorite list
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home
+* Favorite Tab
+* News Tab(optional)
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [🏠] Home - Insert Country name
+* => View Information
+
+- [🏁] Country's Information - select flag
+* => View the country's flag
+
+- [🔣] Country's Detail - select coat of arm
+* => View the country's coat of arm
+
+- [👍] Favorite's tab
+* list of favorite countries
+
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+<img src="http://g.recordit.co/ARdJw6M7rx.gif" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
