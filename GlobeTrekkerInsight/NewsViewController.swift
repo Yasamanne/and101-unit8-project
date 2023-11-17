@@ -30,11 +30,20 @@ class NewsViewController: UIViewController,UITableViewDataSource {
 //        } else {
 //            print("User Input is empty")
 //        }
+        let tabBar = tabBarController as! BaseTabBarController
+        countryName = String(describing: tabBar.userInputValue)
         newsTableView.dataSource = self
-        fetchNews(requestedCountry: self.countryName ?? "us")
+        
+        fetchNews(requestedCountry: countryName ?? "us")
         
         // Do any additional setup after loading the view.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        let tabBar = tabBarController as! BaseTabBarController
+        countryName = String(describing: tabBar.userInputValue)
+        fetchNews(requestedCountry: countryName ?? "us")
+    }
+   
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         // Assuming you have a navigation controller and your target view controller is "YourViewController"
         if let navigationController = self.navigationController {

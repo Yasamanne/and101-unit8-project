@@ -31,25 +31,29 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        if let gifURL = Bundle.main.url(forResource: "globe1", withExtension: "gif"),
-//                   let gifData = try? Data(contentsOf: gifURL),
-//                   let gifImage = UIImage.gif(data: gifData) {
-//
-//                    // Set the animated image to the UIImageView
-//            globeGif.image = gifImage
-//
-//                    // Optionally, start the animation
-//            globeGif.startAnimating()
-//                }
+        if let gifURL = Bundle.main.url(forResource: "globe1", withExtension: "gif"),
+                   let gifData = try? Data(contentsOf: gifURL),
+                   let gifImage = UIImage.gif(data: gifData) {
+
+                    // Set the animated image to the UIImageView
+            globeGif.image = gifImage
+
+                    // Optionally, start the animation
+            globeGif.startAnimating()
+                }
         
         if let textField = userInput {
             textField.delegate = self
         }
-        
+        let tabBar = tabBarController as! BaseTabBarController
+        self.countryName = String(describing: tabBar.userInputValue)
                 
     }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        let tabBar = tabBarController as! BaseTabBarController
+        tabBar.userInputValue = userInput.text ?? ""
+    }
     @IBAction func countryButton(_ sender: UIButton) {
         if let text = userInput.text {
             print("User Input: \(text)")
@@ -77,12 +81,6 @@ class ViewController: UIViewController, UITextFieldDelegate{
                 destinationVC.countryOfficialName = countryOfficialName
                 destinationVC.countryFlag = countryFlag
                 destinationVC.countryCoatOfArms = countryCoatOfArms
-            }
-            
-        }else if segue.identifier == "showNews"{
-            if let destinationVC = segue.destination as? NewsViewController{
-                print("hereeee",userInput.text)
-                destinationVC.countryName = userInput.text
             }
         }
         

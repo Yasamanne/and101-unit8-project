@@ -24,6 +24,7 @@
 		CBAF516F2B05DAC200DA0F0F /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */; };
 		CBAF51B32B07E42900DA0F0F /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF51B22B07E42900DA0F0F /* Nuke */; };
 		CBAF51B52B08149A00DA0F0F /* globe-trekker-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */; };
+		CBAF51B72B08175700DA0F0F /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-trekker-logo.png"; path = "../../../../Desktop/globe-trekker-logo.png"; sourceTree = "<group>"; };
+		CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				CBAF51682B05A1E500DA0F0F /* News.swift */,
 				CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */,
 				CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */,
+				CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */,
 			);
 			path = GlobeTrekkerInsight;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				CB9E7DF42B00EA0300381E1B /* ViewController.swift in Sources */,
 				CBAF516F2B05DAC200DA0F0F /* NewsCell.swift in Sources */,
+				CBAF51B72B08175700DA0F0F /* BaseTabBarController.swift in Sources */,
 				CB9E7DF02B00EA0300381E1B /* AppDelegate.swift in Sources */,
 				CB9E7DF22B00EA0300381E1B /* SceneDelegate.swift in Sources */,
 				CBAF51672B04A05200DA0F0F /* CountryInfoViewController.swift in Sources */,
