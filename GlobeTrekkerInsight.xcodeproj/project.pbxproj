@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9E7DF02B00EA0300381E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7DEF2B00EA0300381E1B /* AppDelegate.swift */; };
+		CB9E7DF22B00EA0300381E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7DF12B00EA0300381E1B /* SceneDelegate.swift */; };
+		CB9E7DF42B00EA0300381E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7DF32B00EA0300381E1B /* ViewController.swift */; };
+		CB9E7DF72B00EA0300381E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9E7DF52B00EA0300381E1B /* Main.storyboard */; };
+		CB9E7DF92B00EA0500381E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9E7DF82B00EA0500381E1B /* Assets.xcassets */; };
+		CB9E7DFC2B00EA0500381E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9E7DFA2B00EA0500381E1B /* LaunchScreen.storyboard */; };
+		CB9E7E082B00F78000381E1B /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7E072B00F78000381E1B /* NavBarController.swift */; };
+		CBAF51592B01F3E400DA0F0F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51582B01F3E400DA0F0F /* Country.swift */; };
+		CBAF515F2B0488C800DA0F0F /* globe1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBAF515C2B0488C800DA0F0F /* globe1.gif */; };
+		CBAF51602B0488C800DA0F0F /* globe2.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBAF515D2B0488C800DA0F0F /* globe2.gif */; };
+		CBAF51612B0488C800DA0F0F /* globe3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBAF515E2B0488C800DA0F0F /* globe3.gif */; };
+		CBAF51672B04A05200DA0F0F /* CountryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51662B04A05200DA0F0F /* CountryInfoViewController.swift */; };
+		CBAF51692B05A1E500DA0F0F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51682B05A1E500DA0F0F /* News.swift */; };
+		CBAF516B2B05A61900DA0F0F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */; };
+		CBAF516F2B05DAC200DA0F0F /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */; };
+		CBAF51B32B07E42900DA0F0F /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF51B22B07E42900DA0F0F /* Nuke */; };
+		CBAF51B52B08149A00DA0F0F /* globe-trekker-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB9E7DEC2B00EA0300381E1B /* GlobeTrekkerInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeTrekkerInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9E7DEF2B00EA0300381E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB9E7DF12B00EA0300381E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB9E7DF32B00EA0300381E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB9E7DF62B00EA0300381E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9E7DF82B00EA0500381E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9E7DFB2B00EA0500381E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9E7DFD2B00EA0500381E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9E7E072B00F78000381E1B /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		CBAF51582B01F3E400DA0F0F /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		CBAF515C2B0488C800DA0F0F /* globe1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = globe1.gif; sourceTree = "<group>"; };
+		CBAF515D2B0488C800DA0F0F /* globe2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = globe2.gif; sourceTree = "<group>"; };
+		CBAF515E2B0488C800DA0F0F /* globe3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = globe3.gif; sourceTree = "<group>"; };
+		CBAF51662B04A05200DA0F0F /* CountryInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoViewController.swift; sourceTree = "<group>"; };
+		CBAF51682B05A1E500DA0F0F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-trekker-logo.png"; path = "../../../../Desktop/globe-trekker-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9E7DE92B00EA0300381E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAF51B32B07E42900DA0F0F /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9E7DE32B00EA0300381E1B = {
+			isa = PBXGroup;
+			children = (
+				CB9E7DEE2B00EA0300381E1B /* GlobeTrekkerInsight */,
+				CB9E7DED2B00EA0300381E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9E7DED2B00EA0300381E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9E7DEC2B00EA0300381E1B /* GlobeTrekkerInsight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9E7DEE2B00EA0300381E1B /* GlobeTrekkerInsight */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF51582B01F3E400DA0F0F /* Country.swift */,
+				CB9E7DEF2B00EA0300381E1B /* AppDelegate.swift */,
+				CB9E7DF12B00EA0300381E1B /* SceneDelegate.swift */,
+				CB9E7DF32B00EA0300381E1B /* ViewController.swift */,
+				CB9E7DF52B00EA0300381E1B /* Main.storyboard */,
+				CB9E7DF82B00EA0500381E1B /* Assets.xcassets */,
+				CB9E7DFA2B00EA0500381E1B /* LaunchScreen.storyboard */,
+				CB9E7DFD2B00EA0500381E1B /* Info.plist */,
+				CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */,
+				CB9E7E072B00F78000381E1B /* NavBarController.swift */,
+				CBAF515C2B0488C800DA0F0F /* globe1.gif */,
+				CBAF515D2B0488C800DA0F0F /* globe2.gif */,
+				CBAF515E2B0488C800DA0F0F /* globe3.gif */,
+				CBAF51662B04A05200DA0F0F /* CountryInfoViewController.swift */,
+				CBAF51682B05A1E500DA0F0F /* News.swift */,
+				CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */,
+				CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */,
+			);
+			path = GlobeTrekkerInsight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9E7DEB2B00EA0300381E1B /* GlobeTrekkerInsight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9E7E002B00EA0500381E1B /* Build configuration list for PBXNativeTarget "GlobeTrekkerInsight" */;
+			buildPhases = (
+				CB9E7DE82B00EA0300381E1B /* Sources */,
+				CB9E7DE92B00EA0300381E1B /* Frameworks */,
+				CB9E7DEA2B00EA0300381E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobeTrekkerInsight;
+			packageProductDependencies = (
+				CBAF51B22B07E42900DA0F0F /* Nuke */,
+			);
+			productName = GlobeTrekkerInsight;
+			productReference = CB9E7DEC2B00EA0300381E1B /* GlobeTrekkerInsight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9E7DE42B00EA0300381E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CB9E7DEB2B00EA0300381E1B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CB9E7DE72B00EA0300381E1B /* Build configuration list for PBXProject "GlobeTrekkerInsight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9E7DE32B00EA0300381E1B;
+			packageReferences = (
+				CBAF51B12B07E42900DA0F0F /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = CB9E7DED2B00EA0300381E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9E7DEB2B00EA0300381E1B /* GlobeTrekkerInsight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9E7DEA2B00EA0300381E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9E7DFC2B00EA0500381E1B /* LaunchScreen.storyboard in Resources */,
+				CBAF515F2B0488C800DA0F0F /* globe1.gif in Resources */,
+				CBAF51602B0488C800DA0F0F /* globe2.gif in Resources */,
+				CBAF51612B0488C800DA0F0F /* globe3.gif in Resources */,
+				CBAF51B52B08149A00DA0F0F /* globe-trekker-logo.png in Resources */,
+				CB9E7DF92B00EA0500381E1B /* Assets.xcassets in Resources */,
+				CB9E7DF72B00EA0300381E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9E7DE82B00EA0300381E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9E7DF42B00EA0300381E1B /* ViewController.swift in Sources */,
+				CBAF516F2B05DAC200DA0F0F /* NewsCell.swift in Sources */,
+				CB9E7DF02B00EA0300381E1B /* AppDelegate.swift in Sources */,
+				CB9E7DF22B00EA0300381E1B /* SceneDelegate.swift in Sources */,
+				CBAF51672B04A05200DA0F0F /* CountryInfoViewController.swift in Sources */,
+				CBAF51692B05A1E500DA0F0F /* News.swift in Sources */,
+				CBAF51592B01F3E400DA0F0F /* Country.swift in Sources */,
+				CB9E7E082B00F78000381E1B /* NavBarController.swift in Sources */,
+				CBAF516B2B05A61900DA0F0F /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB9E7DF52B00EA0300381E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9E7DF62B00EA0300381E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9E7DFA2B00EA0500381E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9E7DFB2B00EA0500381E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9E7DFE2B00EA0500381E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB9E7DFF2B00EA0500381E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9E7E012B00EA0500381E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeTrekkerInsight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GlobeTrekkerInsight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB9E7E022B00EA0500381E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeTrekkerInsight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.GlobeTrekkerInsight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9E7DE72B00EA0300381E1B /* Build configuration list for PBXProject "GlobeTrekkerInsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9E7DFE2B00EA0500381E1B /* Debug */,
+				CB9E7DFF2B00EA0500381E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9E7E002B00EA0500381E1B /* Build configuration list for PBXNativeTarget "GlobeTrekkerInsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9E7E012B00EA0500381E1B /* Debug */,
+				CB9E7E022B00EA0500381E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBAF51B12B07E42900DA0F0F /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBAF51B22B07E42900DA0F0F /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBAF51B12B07E42900DA0F0F /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB9E7DE42B00EA0300381E1B /* Project object */;
+}

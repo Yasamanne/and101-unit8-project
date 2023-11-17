@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "921B08D8-11A3-40C3-AFE2-36DEA9758947"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75B597B3-4088-4224-A852-F493B9FAE705"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlobeTrekkerInsight/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - 6afc4d31f97ab306"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.countryNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - bc854818f554cf3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.countryNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - 4a16e5354a38ca0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.countryNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - 4258175511f8dd52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.countryNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - 839d95f444526330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; GlobeTrekkerInsight.ViewController"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "75B597B3-4088-4224-A852-F493B9FAE705 - bcc076ebca795978"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlobeTrekkerInsight.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;GlobeTrekkerInsight.ViewController&gt;"
+                  moduleName = "GlobeTrekkerInsight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasamanemami/Documents/GitHub/GlobeTrekker/GlobeTrekkerInsight/GlobeTrekkerInsight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "485">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
