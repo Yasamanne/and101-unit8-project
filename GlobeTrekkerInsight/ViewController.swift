@@ -18,14 +18,21 @@ class ViewController: UIViewController, UITextFieldDelegate{
     var countryOfficialName: String?
     var countryFlag: String?
     var countryCoatOfArms: String?
+    var continents: [String]?
+    var population:Int?
+    var startOfWeek: String?
+    var timezones: [String]?
+    var area: Double?
+    var mapURL: String?
     
+    weak var delegate: DataDelegate?
     
-    @IBOutlet weak var countryNameLabel: UILabel!
     @IBOutlet weak var logoImage: UIImageView!
     
     @IBOutlet weak var globeGif: UIImageView!
     
     @IBOutlet weak var userInput: UITextField!
+    weak var secondDestination: DataDelegate?
     var newsInstance = NewsViewController()
     
     
@@ -47,8 +54,10 @@ class ViewController: UIViewController, UITextFieldDelegate{
         }
         let tabBar = tabBarController as! BaseTabBarController
         self.countryName = String(describing: tabBar.userInputValue)
-                
+        
     }
+    
+    
     
     override func viewWillDisappear(_ animated: Bool) {
         let tabBar = tabBarController as! BaseTabBarController
@@ -58,6 +67,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         if let text = userInput.text {
             print("User Input: \(text)")
             fetchCountryInfo(requestedCountry: text)
+            
             
             
         } else {
@@ -81,16 +91,20 @@ class ViewController: UIViewController, UITextFieldDelegate{
                 destinationVC.countryOfficialName = countryOfficialName
                 destinationVC.countryFlag = countryFlag
                 destinationVC.countryCoatOfArms = countryCoatOfArms
+                destinationVC.area = area
+                destinationVC.population = population
+                destinationVC.startOfWeek = startOfWeek
+                destinationVC.timezones = timezones
+                destinationVC.continents = continents
+                destinationVC.mapURL = mapURL
             }
+        
         }
+        
         
     }
     
-    func didFetchCountryInfo(countryInfo: Country) {
-            // Update UI elements in ViewController based on the fetched data
-            // For example:
-            self.countryNameLabel.text = countryInfo.name.common
-    }
+   
     
     func fetchCountryInfo(requestedCountry: String) {
         var urlString = "https://restcountries.com/v3.1/translation/" + requestedCountry
@@ -119,14 +133,27 @@ class ViewController: UIViewController, UITextFieldDelegate{
                         
                         DispatchQueue.main.async {
                             
-                            let continent = firstCountry.continents
-                            print("✅Continent: \(continent)")
-                            let population = firstCountry.population
-                            print("✅Population: \(population)")
-                            let timeZone = firstCountry.timezones
-                            print("✅Time Zone: \(timeZone)")
+                            self?.continents = firstCountry.continents
+                            print("✅Continent: \(self?.continents)")
+                            
+                            self?.population = firstCountry.population
+                            print("✅Population: \(self?.population)")
+                            
+                            self?.timezones = firstCountry.timezones
+                            print("✅Time Zone: \(self?.timezones)")
+                            
+                            self?.area = firstCountry.self.area
+                            print("✅Area: \(self?.area)")
+                            
+                            self?.startOfWeek = firstCountry.startOfWeek
+                            print("✅Start of Week: \(self?.startOfWeek)")
+                            
                             self?.countryFlag = firstCountry.flags.png
                             print("✅countryFlag: \(self?.countryFlag)")
+                            
+                            self?.mapURL = firstCountry.maps.openStreetMaps
+                            print("✅countryFlag: \(self?.mapURL)")
+                            
                             self?.countryCoatOfArms = firstCountry.coatOfArms.png
                             print("✅countryCoatOfArms: \(self?.countryCoatOfArms)")
                             //                        self?.languageValues = Array(firstCountry.languages.values)

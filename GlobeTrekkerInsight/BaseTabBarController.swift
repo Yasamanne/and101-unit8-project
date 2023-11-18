@@ -10,11 +10,12 @@ import UIKit
 class BaseTabBarController: UITabBarController {
     
     var userInputValue: String = ""
+    var mapURL: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print("tab bar", mapURL)
     }
     
 

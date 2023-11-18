@@ -25,6 +25,9 @@
 		CBAF51B32B07E42900DA0F0F /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF51B22B07E42900DA0F0F /* Nuke */; };
 		CBAF51B52B08149A00DA0F0F /* globe-trekker-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */; };
 		CBAF51B72B08175700DA0F0F /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */; };
+		CBAF51C12B08991900DA0F0F /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C02B08991900DA0F0F /* MapsViewController.swift */; };
+		CBAF51C32B089AA900DA0F0F /* CountryInfoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C22B089AA900DA0F0F /* CountryInfoDetailsViewController.swift */; };
+		CBAF51C52B08A34A00DA0F0F /* DataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C42B08A34A00DA0F0F /* DataDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-trekker-logo.png"; path = "../../../../Desktop/globe-trekker-logo.png"; sourceTree = "<group>"; };
 		CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		CBAF51C02B08991900DA0F0F /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		CBAF51C22B089AA900DA0F0F /* CountryInfoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoDetailsViewController.swift; sourceTree = "<group>"; };
+		CBAF51C42B08A34A00DA0F0F /* DataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				CBAF516A2B05A61900DA0F0F /* NewsViewController.swift */,
 				CBAF516E2B05DAC200DA0F0F /* NewsCell.swift */,
 				CBAF51B62B08175700DA0F0F /* BaseTabBarController.swift */,
+				CBAF51C02B08991900DA0F0F /* MapsViewController.swift */,
+				CBAF51C22B089AA900DA0F0F /* CountryInfoDetailsViewController.swift */,
+				CBAF51C42B08A34A00DA0F0F /* DataDelegate.swift */,
 			);
 			path = GlobeTrekkerInsight;
 			sourceTree = "<group>";
@@ -193,6 +202,9 @@
 				CBAF51592B01F3E400DA0F0F /* Country.swift in Sources */,
 				CB9E7E082B00F78000381E1B /* NavBarController.swift in Sources */,
 				CBAF516B2B05A61900DA0F0F /* NewsViewController.swift in Sources */,
+				CBAF51C52B08A34A00DA0F0F /* DataDelegate.swift in Sources */,
+				CBAF51C32B089AA900DA0F0F /* CountryInfoDetailsViewController.swift in Sources */,
+				CBAF51C12B08991900DA0F0F /* MapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,12 @@ class CountryInfoViewController: UIViewController {
     var capital: String?
     var countryFlag: String?
     var countryCoatOfArms: String?
+    var continents: [String]?
+    var population:Int?
+    var startOfWeek: String?
+    var timezones: [String]?
+    var area: Double?
+    var mapURL: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +42,12 @@ class CountryInfoViewController: UIViewController {
             blue: CGFloat(44) / 255.0,
             alpha: 1.0
         )
+        
         let labelData: [(String, String?, UIColor)] = [
             ("", "", UIColor.clear),
             ("Country Official Name:", countryOfficialName, UIColor.black),
             ("Capital", capital, customColor),
-            ("Languages Spoken:", languageValues?.description, UIColor.black),
+            ("Languages Spoken:", languageValues?.values.flatMap { $0 }.joined(separator: ", "), UIColor.black),
             ("currancyName:", currencyName?.description, customColor)
         ]
         
@@ -90,16 +97,7 @@ class CountryInfoViewController: UIViewController {
         }
         
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "ShowNews" {
-            print("Preparing for segue")
-            
-            if let destinationVC = segue.destination as? CountryInfoViewController {
-                // Pass data to the destination view controller if needed
-                destinationVC.countryName = self.countryName
-            }
-        }
-    }
+    
     
     @IBAction func didButtonSelected(_ sender: Any) {
         
@@ -111,6 +109,28 @@ class CountryInfoViewController: UIViewController {
             coatButton.setTitle("Flag", for: .normal)
         }
         
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Details"{
+            if let destinationVC = segue.destination as? CountryInfoDetailsViewController {
+                // Pass data to the destination view controller if needed
+                
+                destinationVC.countryName = countryName ?? ""
+                destinationVC.area = area
+                destinationVC.population = population
+                destinationVC.startOfWeek = startOfWeek
+                destinationVC.timezones = timezones
+                destinationVC.continents = continents
+            }
+        }
+        if segue.identifier == "MapURL"{
+            if let destinationVC = segue.destination as? MapsViewController {
+                // Pass data to the destination view controller if needed
+                print("kalak", mapURL)
+                destinationVC.mapURL = mapURL
+                
+            }
+        }
     }
     func loadImage(from urlString: String?, into imageView: UIImageView) {
             guard let urlString = urlString, let url = URL(string: urlString) else {
