@@ -12,6 +12,7 @@ class CountryInfoViewController: UIViewController {
     
  
     
+    @IBOutlet weak var mapButton: UIButton!
     @IBOutlet weak var coatButton: UIButton!
     @IBOutlet weak var flagImageView: UIImageView!
     @IBOutlet weak var logoImage: UIImageView!

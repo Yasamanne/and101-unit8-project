@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-MX-AHg">
-                                <rect key="frame" x="69" y="533" width="231" height="34"/>
+                                <rect key="frame" x="69" y="573" width="231" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -27,19 +27,12 @@
                                 <rect key="frame" x="0.0" y="39" width="393" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Country do you want to see information?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLb-1I-rNO">
-                                <rect key="frame" x="69" y="407" width="231" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globe1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="gXl-6W-JnS">
                                 <rect key="frame" x="24" y="141" width="320" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" preferredBehavioralStyle="mac" translatesAutoresizingMaskIntoConstraints="NO" id="ceK-dZ-gN6">
-                                <rect key="frame" x="152" y="615" width="65" height="35"/>
+                                <rect key="frame" x="152" y="659" width="65" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26424203117693834" green="0.33873665628453775" blue="0.53134016557173291" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,12 +44,20 @@
                                     <segue destination="PNR-e6-ukM" kind="show" identifier="ShowCountryInfo" id="d9l-Rg-cNc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which country's information would you like to view?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLb-1I-rNO">
+                                <rect key="frame" x="69" y="429" width="231" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" systemColor="systemGray3Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.95298773049999996" green="0.69017660619999999" blue="0.17268645760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="YUP-jQ-k3f"/>
                     <connections>
+                        <outlet property="enterButton" destination="ceK-dZ-gN6" id="FQc-mJ-rRG"/>
                         <outlet property="globeGif" destination="gXl-6W-JnS" id="YsS-eR-fZU"/>
                         <outlet property="logoImage" destination="qlr-GR-BX8" id="krH-nH-9ZT"/>
                         <outlet property="userInput" destination="Lth-MX-AHg" id="Sda-Ni-GTl"/>
@@ -64,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250" y="937"/>
+            <point key="canvasLocation" x="249.61832061068702" y="936.61971830985919"/>
         </scene>
         <!--Home-->
         <scene sceneID="U7C-qS-mAZ">
@@ -132,7 +133,7 @@
             <objects>
                 <viewController id="dJr-wz-7zr" customClass="MapsViewController" customModule="GlobeTrekkerInsight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W3L-Nf-TNg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="cZQ-Fe-nXK">
@@ -280,7 +281,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="didButtonSelected:" destination="PNR-e6-ukM" eventType="touchUpInside" id="rby-h4-H6y"/>
-                                    <segue destination="dJr-wz-7zr" kind="modal" identifier="MapURL" id="BnZ-dn-9b5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yx4-6n-fwP">
@@ -299,20 +299,32 @@
                                 <rect key="frame" x="61" y="633" width="177" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTa-83-vXc">
+                                <rect key="frame" x="163" y="750" width="40" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dJr-wz-7zr" kind="show" identifier="MapURL" id="7em-kN-jbO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Svg-Gx-oU4"/>
-                        <color key="backgroundColor" red="0.95330980089999995" green="0.68246286349999996" blue="0.1540770266" alpha="0.97619396530000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="L7I-ZF-whm"/>
                     <connections>
                         <outlet property="coatButton" destination="KEg-FF-SrG" id="6oM-dr-Ag0"/>
                         <outlet property="flagImageView" destination="jo1-rO-gBZ" id="r6z-k6-pB3"/>
                         <outlet property="logoImage" destination="bFa-Am-ju4" id="AeK-aD-yve"/>
+                        <outlet property="mapButton" destination="zTa-83-vXc" id="WyF-Uh-d5e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q36-8w-XbR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-564" y="735"/>
+            <point key="canvasLocation" x="-564.12213740458014" y="734.50704225352115"/>
         </scene>
         <!--Country Info Details View Controller-->
         <scene sceneID="CTU-1S-U6v">
@@ -422,7 +434,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="BnZ-dn-9b5"/>
+        <segue reference="7em-kN-jbO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe1.gif" width="250" height="229"/>
@@ -438,6 +450,9 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

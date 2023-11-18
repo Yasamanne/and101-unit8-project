@@ -28,6 +28,8 @@
 		CBAF51C12B08991900DA0F0F /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C02B08991900DA0F0F /* MapsViewController.swift */; };
 		CBAF51C32B089AA900DA0F0F /* CountryInfoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C22B089AA900DA0F0F /* CountryInfoDetailsViewController.swift */; };
 		CBAF51C52B08A34A00DA0F0F /* DataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF51C42B08A34A00DA0F0F /* DataDelegate.swift */; };
+		CBAF51C72B092E0C00DA0F0F /* globe4.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBAF51C62B092E0C00DA0F0F /* globe4.gif */; };
+		CBAF51C92B092EF300DA0F0F /* globe5.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBAF51C82B092EF300DA0F0F /* globe5.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		CBAF51C02B08991900DA0F0F /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		CBAF51C22B089AA900DA0F0F /* CountryInfoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoDetailsViewController.swift; sourceTree = "<group>"; };
 		CBAF51C42B08A34A00DA0F0F /* DataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDelegate.swift; sourceTree = "<group>"; };
+		CBAF51C62B092E0C00DA0F0F /* globe4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = globe4.gif; sourceTree = "<group>"; };
+		CBAF51C82B092EF300DA0F0F /* globe5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = globe5.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				CBAF51B42B08149A00DA0F0F /* globe-trekker-logo.png */,
 				CB9E7E072B00F78000381E1B /* NavBarController.swift */,
 				CBAF515C2B0488C800DA0F0F /* globe1.gif */,
+				CBAF51C82B092EF300DA0F0F /* globe5.gif */,
+				CBAF51C62B092E0C00DA0F0F /* globe4.gif */,
 				CBAF515D2B0488C800DA0F0F /* globe2.gif */,
 				CBAF515E2B0488C800DA0F0F /* globe3.gif */,
 				CBAF51662B04A05200DA0F0F /* CountryInfoViewController.swift */,
@@ -175,9 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAF51C92B092EF300DA0F0F /* globe5.gif in Resources */,
 				CB9E7DFC2B00EA0500381E1B /* LaunchScreen.storyboard in Resources */,
 				CBAF515F2B0488C800DA0F0F /* globe1.gif in Resources */,
 				CBAF51602B0488C800DA0F0F /* globe2.gif in Resources */,
+				CBAF51C72B092E0C00DA0F0F /* globe4.gif in Resources */,
 				CBAF51612B0488C800DA0F0F /* globe3.gif in Resources */,
 				CBAF51B52B08149A00DA0F0F /* globe-trekker-logo.png in Resources */,
 				CB9E7DF92B00EA0500381E1B /* Assets.xcassets in Resources */,

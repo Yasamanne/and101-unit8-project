@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     weak var delegate: DataDelegate?
     
+    @IBOutlet weak var enterButton: UIButton!
     @IBOutlet weak var logoImage: UIImageView!
     
     @IBOutlet weak var globeGif: UIImageView!
@@ -38,7 +39,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let gifURL = Bundle.main.url(forResource: "globe1", withExtension: "gif"),
+        if let gifURL = Bundle.main.url(forResource: "globe5", withExtension: "gif"),
                    let gifData = try? Data(contentsOf: gifURL),
                    let gifImage = UIImage.gif(data: gifData) {
 
@@ -54,6 +55,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         }
         let tabBar = tabBarController as! BaseTabBarController
         self.countryName = String(describing: tabBar.userInputValue)
+        enterButton.layer.cornerRadius = 0.5
         
     }
     
