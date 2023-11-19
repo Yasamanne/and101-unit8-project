@@ -41,7 +41,6 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Enter" cornerStyle="dynamic"/>
                                 <connections>
                                     <action selector="countryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iA-cW-T7g"/>
-                                    <segue destination="PNR-e6-ukM" kind="show" identifier="ShowCountryInfo" id="d9l-Rg-cNc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which country's information would you like to view?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLb-1I-rNO">
@@ -61,11 +60,12 @@
                         <outlet property="globeGif" destination="gXl-6W-JnS" id="YsS-eR-fZU"/>
                         <outlet property="logoImage" destination="qlr-GR-BX8" id="krH-nH-9ZT"/>
                         <outlet property="userInput" destination="Lth-MX-AHg" id="Sda-Ni-GTl"/>
+                        <segue destination="PNR-e6-ukM" kind="show" identifier="ShowCountryInfo" id="6sm-uK-KHn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="249.61832061068702" y="936.61971830985919"/>
+            <point key="canvasLocation" x="416" y="735"/>
         </scene>
         <!--Home-->
         <scene sceneID="U7C-qS-mAZ">
@@ -307,7 +307,7 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="dJr-wz-7zr" kind="show" identifier="MapURL" id="7em-kN-jbO"/>
+                                    <segue destination="dJr-wz-7zr" kind="show" identifier="MapURL" id="CLy-X6-n7F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -399,7 +399,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGd-Oi-qi2">
-                                <rect key="frame" x="207" y="508" width="140" height="80"/>
+                                <rect key="frame" x="207" y="508" width="140" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.24215534859999999" green="0.31042333690000001" blue="0.4869280728" alpha="0.37221511940000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -430,11 +430,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuE-CI-Jbj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-564.12213740458014" y="1521.8309859154931"/>
+            <point key="canvasLocation" x="-564.12213740458014" y="1718.3098591549297"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7em-kN-jbO"/>
+        <segue reference="CLy-X6-n7F"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe1.gif" width="250" height="229"/>
