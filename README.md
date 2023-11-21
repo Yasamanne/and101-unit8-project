@@ -6,11 +6,11 @@
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
+5. [Demo](#Demo)
 
 ## Overview
 
 ### Description
-[Description of your app]
 
 GlobeTrekker Insight is a user-friendly app that taps into the power of the REST Countries API to provide you with a wealth of information about every country in the world. With just a few taps, you can explore a treasure trove of data, from the official language, currency, and capital city of any country to its flag and location on the world map.
 
@@ -18,7 +18,6 @@ Discover the beauty of global diversity and expand your knowledge of the world's
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:**
   GlobeTrekker Insight falls into the "Reference & Education" category, as it primarily serves as a resource for users looking to gather information about countries around the world.
 - **Mobile:**
@@ -103,6 +102,11 @@ Discover the beauty of global diversity and expand your knowledge of the world's
 
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+Two APIs are used for this app development:
+  - For Country information, Flags, and map: [Country API](https://restcountries.com/)
+  - For News Related to a specific country: [News API](https://newsapi.org/)
+
+### Demo
+
+<img src="http://g.recordit.co/dkfMIVNDGa.gif">
+
